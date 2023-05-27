@@ -33,6 +33,12 @@
     <ClInclude Include="SmartMutex.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SmartPipe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChadWinApi.cpp">
@@ -45,6 +51,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SmartMutex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartPipe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartEvent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

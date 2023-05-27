@@ -142,8 +142,10 @@
     <ClInclude Include="ChadWinApi.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="SmartEvent.h" />
     <ClInclude Include="SmartHandle.h" />
     <ClInclude Include="SmartMutex.h" />
+    <ClInclude Include="SmartPipe.h" />
     <ClInclude Include="SmartWinApiException.h" />
   </ItemGroup>
   <ItemGroup>
@@ -154,8 +156,10 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="SmartEvent.cpp" />
     <ClCompile Include="SmartHandle.cpp" />
     <ClCompile Include="SmartMutex.cpp" />
+    <ClCompile Include="SmartPipe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
