@@ -95,6 +95,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -112,6 +113,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -129,6 +131,7 @@
       <ConformanceMode>true</ConformanceMode>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -146,6 +149,7 @@
     <ClInclude Include="SmartHandle.h" />
     <ClInclude Include="SmartMutex.h" />
     <ClInclude Include="SmartPipe.h" />
+    <ClInclude Include="SmartRegistryKey.h" />
     <ClInclude Include="SmartWinApiException.h" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +164,7 @@
     <ClCompile Include="SmartHandle.cpp" />
     <ClCompile Include="SmartMutex.cpp" />
     <ClCompile Include="SmartPipe.cpp" />
+    <ClCompile Include="SmartRegistryKey.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

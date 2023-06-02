@@ -39,6 +39,9 @@
     <ClInclude Include="SmartEvent.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="SmartRegistryKey.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChadWinApi.cpp">
@@ -57,6 +60,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="SmartEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartRegistryKey.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
